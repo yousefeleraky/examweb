@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #f5f5f5;
+    display: flex;
+    
+}
+
+
+
+#nav {
+    background-color: #323332;
+    height: 40px;
+    width: 100%;
+    /* animation: fadeIn 1s ease-in-out; */
+
+}
+
+h1 {
+    text-align: center;
+    color: #fffefe;
+}
+
+#main {
+    display: flex;
+}
+
+#examContainer {
+    width: 600px;
+    height: 300px;
+    border: solid 1px #d6d3cc;
+    border-radius: 20px;
+    margin-left: 200px;
+    margin-top: 60px;
+    background-color: #fefffe;
+    animation: fadeIn 0.5s ease-in;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+#timer {
+    width: 100px;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left: 490px;
+    margin-top: 4px;
+    margin-bottom: 10px;
+}
+
+
+#questionContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 25px;
+}
+
+#questionContainer p {
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 5px;
+    margin-bottom: 50px;
+}
+
+#questionContainer label {
+    margin-left: 9px;
+}
+
+#questionContainer input {
+    margin-left: 30px;
+}
+
+#buttoms {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+button {
+    color: #ffffff;
+    background-color: #323333;
+    padding: 7px;
+    border-radius: 3px;
+    border: #d6d3cc;
+}
+
+button:hover {
+    background-color: #7a1825
+}
+
+#submitBtn {
+    display: none;
+}
+
+#markquestion {
+    display: flex;
+    width: 200px;
+    height: 700px;
+    color: white;
+    background-color: #7a1825;
+    text-align: center;
+    font-weight: bolder;
+    border: solid 1px gray;
+    margin-top: 3px;
+    align-content: center;
+    flex-direction: column;
+}
+#markquestion p {
+    margin-top: 10px;
+}
